@@ -1,0 +1,66 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- App-private storage. Android grants this to every app at install time on
+         all phones (non-sensitive). The app no longer writes to public/external
+         storage, so the sensitive MANAGE_EXTERNAL_STORAGE ("All files access")
+         permission is not declared here anymore. -->
+    <uses-permission android:name="android.permission.STORAGE" />
+    <application
+        android:label="Pippo"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher"
+        android:extractNativeLibs="true"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+              android:name="io.flutter.embedding.android.NormalTheme"
+              android:resource="@style/NormalTheme"
+              />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+        <!-- Impeller's Vulkan backend can emit "Attempted to add an invalid
+             command to the render pass" (ImpellerValidationBreak) on some
+             Android GPUs. Fall back to the stable Skia renderer until this is
+             resolved in the engine. -->
+        <meta-data
+            android:name="io.flutter.embedding.android.EnableImpeller"
+            android:value="false" />
+        <activity
+            android:name="com.linusu.flutter_web_auth_2.CallbackActivity"
+            android:exported="true"
+            android:taskAffinity="">
+            <!-- Lichess OAuth. Google sign-in does not use any browser flow
+                 anymore, so `com.atlaschess.app://oauth` is the only redirect
+                 this app declares. -->
+            <intent-filter android:label="flutter_web_auth_2">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="com.atlaschess.app"
+                    android:host="oauth" />
+            </intent-filter>
+        </activity>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+    </queries>
+</manifest>

@@ -1,0 +1,31 @@
+name: atlas_core
+description: Local shared application logic for AtlasChess.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.2
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  app_links: ^7.2.1
+  google_sign_in: ^7.2.0
+  chess: ^0.8.1
+  path_provider: ^2.1.2
+  onnxruntime: ^1.4.1
+  archive: ^3.6.1
+  mongo_dart: ^0.10.4
+  flutter_dotenv: ^5.1.0
+  # 6.0.0-alpha.7 is the first release migrated to Flutter's built-in Kotlin
+  # (AGP 9); 5.x applies the Kotlin Gradle Plugin and triggers a build warning.
+  flutter_web_auth_2: ^6.0.0-alpha.7
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0

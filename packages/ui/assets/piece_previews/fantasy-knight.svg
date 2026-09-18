@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45">
+  <defs>
+    <linearGradient id="fgold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="bdk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2C1810"/>
+      <stop offset="100%" stop-color="#1A0A02"/>
+    </linearGradient>
+    <filter id="glow"><feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#0008"/></filter>
+  </defs>
+  <g filter="url(#glow)">
+    <path d="M32 10c0-.6-.5-1-1-1h-4l-2 2h-1v3l-3 2-.5.3c-.3.2-.5.5-.4.9l1 4-2 1-1-3c0-.3-.2-.5-.5-.6l-3-1c-.3 0-.5-.2-.5-.5v-2l-3-1c-.3 0-.5-.2-.5-.5V12l-3-1c-.6 0-1 .4-1 1v2c0 .3-.2.5-.5.5l-2 4v2c0 .8.7 1.4 1.5 1.4H15c.8 0 1.5-.6 1.5-1.4v-2c0-.3-.2-.5-.5-.5l-2-4c-.3 0-.5-.2-.5-.5v-2c0-.6-.4-1-1-1H6c-.6 0-1 .4-1 1v4c0 .3-.2.5-.5.5l-3 1v2c0 .8.7 1.4 1.5 1.4H3c.8 0 1.5-.6 1.5-1.4v-4c0-.3.2-.5.5-.5l1 4-1 1 1-3c.1-.3.2-.6.4-.9l.5-.3 3-2v-3h1l2-2h4c.6 0 1 .4 1 1v3c0 .3.2.5.5.5l4 1v6c0 .3.2.5.5.5h3c.3 0 .5-.2.5-.5v-6l4-1c.3 0 .5-.2.5-.5v-3z" fill="url(#bdk)" stroke="url(#fgold)" stroke-width="1"/>
+    <circle cx="22" cy="37" r="3" fill="url(#fgold)" opacity=".3"/>
+    <path d="M18 28c0-.3.2-.5.5-.5h8c.3 0 .5.2.5.5v.5c0 .3-.2.5-.5.5h-8c-.3 0-.5-.2-.5-.5v-.5z" fill="url(#fgold)" opacity=".8"/>
+  </g>
+</svg>

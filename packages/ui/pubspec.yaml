@@ -1,0 +1,55 @@
+name: atlas_ui
+description: UI package for AtlasChess.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.9
+  audioplayers: ^6.8.1
+  google_fonts: ^6.2.1
+  supabase_flutter: ^2.8.2
+  chess: ^0.8.1
+  shared_preferences: ^2.2.2
+  intl: ^0.20.3
+  flutter_dotenv: ^5.1.0
+  permission_handler: ^11.3.1
+  atlas_core:
+    path: ../atlas_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/pieces/cburnett/
+    - assets/pieces/merida/
+    - assets/pieces/staunty/
+    - assets/pieces/alpha/
+    - assets/pieces/maestro/
+    - assets/pieces/spatial/
+    - assets/piece_previews/
+    - assets/pippo/Pippo.jpeg
+    - assets/classifications/Best.png
+    - assets/classifications/Blunder.png
+    - assets/classifications/Book.png
+    - assets/classifications/Brilliant.png
+    - assets/classifications/Excellent.png
+    - assets/classifications/Forced.png
+    - assets/classifications/Great.png
+    - assets/classifications/Inaccuracy.png
+    - assets/classifications/Miss.png
+    - assets/classifications/Mistake.png
+    - assets/classifications/Okay.png
+    - assets/logos/

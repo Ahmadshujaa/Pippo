@@ -1,0 +1,19 @@
+Stockfish 19 (sf_19, commit edb0d9d)
+
+The libstockfish.so binaries in this directory are official Android builds of
+Stockfish 19, released under the GNU General Public License version 3 (GPLv3).
+
+Source code and license:
+https://github.com/official-stockfish/Stockfish/releases/tag/sf_19
+https://github.com/official-stockfish/Stockfish
+
+Bundled release assets:
+- stockfish-android-arm64-universal.tar.gz
+  SHA-256: FFD8FC2004D3D19F9FDAB95D84C92709AEA92E8D3AF405EDA0B281B23CF1DAF8
+- stockfish-android-armv7-neon.tar.gz
+  SHA-256: 993A3E8BCE85A503ABC900056019691057A83E13AE92C1A2CBB089B9680593F3
+
+The release binaries embed the matching Stockfish 19 NNUE network.
+
+The Stockfish source distribution includes the complete Copying.txt license
+text and the source needed to generate these binaries.

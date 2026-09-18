@@ -1,0 +1,1136 @@
+{
+  "@@locale": "en",
+  "appTitle": "Pippo",
+  "@appTitle": {
+    "description": "App name shown in the task switcher. Brand name; rarely translated."
+  },
+  "defaultPlayerName": "Player",
+  "@defaultPlayerName": {
+    "description": "Fallback display name when the user has not set one."
+  },
+  "notSignedIn": "Not signed in",
+  "@notSignedIn": {
+    "description": "Shown in the profile header when there is no session."
+  },
+  "planAdmin": "ADMIN",
+  "planPro": "PRO MEMBER",
+  "planFree": "FREE MEMBER",
+  "settingsTitle": "Settings",
+  "appSettingsSection": "App Settings",
+  "supportSection": "Support",
+  "appearanceTitle": "Appearance",
+  "appearanceSubtitle": "Light, dark, or system theme",
+  "subscriptionTitle": "Subscription",
+  "subscriptionSubtitle": "Manage your Atlas Pro plan",
+  "languageTitle": "Language",
+  "languageSubtitle": "{language}",
+  "@languageSubtitle": {
+    "description": "Subtitle under the Language row showing the currently selected language.",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "helpTitle": "Help & Support",
+  "helpSubtitle": "FAQs and customer service",
+  "contactSupportTitle": "Contact Support",
+  "contactSupportSubtitle": "Contact support team",
+  "logout": "Log Out",
+  "chooseTheme": "Choose Theme",
+  "lightMode": "Light Mode",
+  "darkMode": "Dark Mode",
+  "systemDefault": "System Default",
+  "editDisplayName": "Edit Display Name",
+  "displayNameRule": "Choose a name up to {maxLength} characters long.",
+  "@displayNameRule": {
+    "placeholders": {
+      "maxLength": {
+        "type": "int"
+      }
+    }
+  },
+  "displayNameLabel": "Display name",
+  "save": "Save",
+  "languageSheetTitle": "Choose Language",
+  "systemLanguage": "System Default",
+
+  "supportTypeLabel": "Type of problem",
+  "supportTypeHint": "Pick the option that best describes your issue.",
+  "supportTypeUi": "UI",
+  "supportTypeError": "Error",
+  "supportTypeOther": "Other",
+  "supportSubjectLabel": "Subject",
+  "supportSubjectHint": "Brief description of your issue",
+  "supportMessageLabel": "Message",
+  "supportMessageHint": "Please describe your issue in detail...",
+  "supportMessageCounter": "{count}/{max} characters",
+  "@supportMessageCounter": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "supportSubmitButton": "Submit Ticket",
+  "supportSuccessTitle": "Ticket Submitted!",
+  "supportSuccessBody": "We will respond to your email within 24-48 hours.",
+  "supportSuccessDone": "Done",
+  "supportSignInTitle": "Sign in to contact support",
+  "supportSignInBody": "Tickets are linked to your account so we can reply to you. Sign in and try again.",
+  "supportOfflineNotice": "You are offline. Reconnect to submit your ticket.",
+  "supportErrTypeRequired": "Choose the type of problem.",
+  "supportErrSubjectRequired": "Enter a subject.",
+  "supportErrMessageRequired": "Enter a message.",
+  "supportErrSubjectTooLong": "Your subject is too long.",
+  "supportErrMessageTooLong": "Your message is too long.",
+  "supportErrGeneric": "Could not submit your ticket. Please try again.",
+
+  "offlineBannerTitle": "No Internet Connection",
+  "retry": "Retry",
+  "boardSettingsTitle": "Board Settings",
+  "pieceSetLabel": "Piece Set",
+  "@pieceSetLabel": {
+    "description": "Heading above the piece-style picker. Its options are piece-set font names, which stay untranslated."
+  },
+  "boardThemeLabel": "Board Theme",
+  "@boardThemeLabel": {
+    "description": "Heading above the board colour picker. Its options are colour words, and those ARE translated."
+  },
+  "moveIndicatorLabel": "Move Indicator",
+  "showCoordinatesLabel": "Show Coordinates",
+  "dragAndDropLabel": "Drag & Drop",
+  "soundLabel": "Sound",
+  "closeButton": "Close",
+  "editExplanationTitle": "Edit Explanation",
+  "writeExplanationHint": "Write the explanation...",
+  "cancelButton": "Cancel",
+  "@cancelButton": {
+    "description": "Dismisses a dialog without saving. Distinct from the logout row."
+  },
+  "boardThemeEmerald": "Emerald",
+  "boardThemeMidnight": "Midnight",
+  "boardThemePurple": "Purple",
+  "boardThemeSand": "Sand",
+  "boardThemeBlue": "Blue",
+  "boardThemeBrown": "Brown",
+
+  "quotaUpgradeCta": "Upgrade to pro to solve unlimited puzzles",
+  "downloadButton": "Download",
+  "upgradeNow": "Upgrade Now",
+  "offlineDownloadsProNotice": "Offline puzzle downloads are available with Pro. Upgrade to save puzzles on this device.",
+  "savedForOffline": "Saved on this device for offline solving",
+  "downloadPuzzlesTitle": "Download Puzzles",
+  "puzzleDecksTitle": "Puzzle Decks",
+  "deckRecentMistakes": "Recent Mistakes",
+  "deckRecentMistakesSubtitle": "Tactics from your lost games",
+  "deckMatingPatterns": "Mating Patterns",
+  "deckMatingPatternsSubtitle": "Master the endgame kills",
+  "@deckMatingPatternsSubtitle": {
+    "description": "Tactics card subtitle. 'Endgame kills' is chess slang for winning mating combinations late in the game, not literal killing."
+  },
+  "deckOpeningTraps": "Opening Traps",
+  "deckOpeningTrapsSubtitle": "Common tricks in your repertoire",
+  "deckDailyChallenges": "Daily Challenges",
+  "deckDailyChallengesSubtitle": "Fresh puzzles every day",
+  "selectedPuzzleCount": "{count, plural, =1{1 puzzle} other{{count} puzzles}}",
+  "@selectedPuzzleCount": {
+    "description": "Shown above the download-size slider as the user drags it.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "getStartedTitle": "Get Started",
+  "@getStartedTitle": {
+    "description": "Primary call to action on the welcome screen; also the heading of the auth entry screen."
+  },
+  "welcomeTagline": "Get better at chess fast with Pippo, your personal coach to help you learn, improve, and win more games.",
+  "signInOrSignUpSubtitle": "Sign in or sign up to save your progress.",
+  "continueWithGoogle": "Continue with Google",
+  "continueAsGuest": "Continue as Guest",
+  "errGoogleSignIn": "Could not complete Google sign-in.",
+
+  "signInTab": "Sign In",
+  "signUpTab": "Sign Up",
+  "createAccountTitle": "Create Account",
+  "orLabel": "OR",
+  "@orLabel": {
+    "description": "Divider label between the Google button and the email form. Keep it short."
+  },
+  "registerButton": "Register",
+  "welcomeBackTitle": "Welcome Back",
+  "signInSubtitle": "Sign in to your account and keep climbing the ranks.",
+  "emailLabel": "Email Address",
+  "emailHint": "Enter your email",
+  "passwordLabel": "Password",
+  "forgotPassword": "Forgot Password?",
+  "signUpSubtitle": "Join thousands of players and improve your game.",
+  "firstNameLabel": "First Name",
+  "firstNameHint": "John",
+  "@firstNameHint": {
+    "description": "Placeholder example first name. Use a common name in the target locale."
+  },
+  "lastNameLabel": "Last Name",
+  "lastNameHint": "Doe",
+  "@lastNameHint": {
+    "description": "Placeholder example last name. Use a common name in the target locale."
+  },
+  "confirmPasswordLabel": "Confirm Password",
+  "passwordUpdated": "Password updated.",
+
+  "resetPasswordTitle": "Reset Password",
+  "enterResetCodeTitle": "Enter Reset Code",
+  "resetIntro": "Enter your account email and we will send you a recovery code.",
+  "resetCodeSentIntro": "We sent a recovery code to {email}. Enter it below with your new password.",
+  "@resetCodeSentIntro": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "recoveryCodeLabel": "Recovery Code",
+  "newPasswordLabel": "New Password",
+  "confirmNewPasswordLabel": "Confirm New Password",
+  "updatePassword": "Update Password",
+  "sendRecoveryCode": "Send Recovery Code",
+  "errEnterValidEmail": "Enter a valid email address.",
+  "errEnterCodeFromEmail": "Enter the code from your email.",
+  "errPasswordsDoNotMatch": "Passwords do not match.",
+
+  "namePromptTitle": "What should we call you?",
+  "namePromptSubtitle": "Choose a name for your profile so we can personalize your experience.",
+  "yourNameHint": "Your name",
+
+  "verifyEmailTitle": "Verify Email",
+  "enterVerificationCodeTitle": "Enter Verification Code",
+  "otpSentPrefix": "We've sent an 8-digit code to\n",
+  "@otpSentPrefix": {
+    "description": "First half of the OTP sentence. The account email is rendered in bold between this and otpSentSuffix."
+  },
+  "otpSentSuffix": ". Please check your inbox or spam folder.",
+  "@otpSentSuffix": {
+    "description": "Second half of the OTP sentence, following the bolded account email."
+  },
+  "verifyCodeButton": "Verify Code",
+  "didntReceiveCode": "Didn't receive code?",
+  "resend": "Resend",
+  "resendInSeconds": "Resend in {seconds}s",
+  "@resendInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "verificationCodeResent": "Verification code resent successfully",
+
+  "helloGreeting": "Hello, {name}",
+  "@helloGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSubtitle": "Ready to learn something new today?",
+  "coursesSection": "Courses",
+  "dailyPracticeSection": "Daily Practice",
+  "seeAll": "See all",
+  "todayLabel": "TODAY",
+  "@todayLabel": {
+    "description": "Heading of the daily stats card. Rendered uppercase; keep it terse."
+  },
+  "gamesVsPippo": "games vs Pippo",
+  "puzzleRatingLabel": "Puzzle Rating",
+  "dailyStreakLabel": "Daily Streak",
+  "chaptersDoneLabel": "Chapters done",
+  "tacticsTrainingTitle": "Tactics Training",
+  "tacticsTrainingSubtitle": "Solve puzzles and sharpen your play",
+  "dailyPuzzleLabel": "Daily Puzzle",
+  "playNow": "Play Now",
+  "navHome": "Home",
+  "navCourses": "Courses",
+  "navPuzzles": "Puzzles",
+  "navAnalysis": "Analysis",
+  "navMenu": "Menu",
+  "planBadgeAdmin": "ADMIN",
+  "@planBadgeAdmin": {
+    "description": "Short plan badge in the home app bar. Distinct from planAdmin, which spells out 'ADMIN' on the settings screen."
+  },
+  "planBadgeFree": "FREE",
+  "planBadgePro": "PRO",
+  "planChipLabel": "{tier} PLAN",
+  "@planChipLabel": {
+    "description": "Plan pill under the greeting. tier is one of the planBadge* strings.",
+    "placeholders": {
+      "tier": {
+        "type": "String"
+      }
+    }
+  },
+  "coursesComingSoon": "Courses coming soon",
+  "continueLearning": "Continue learning",
+  "continueLearningButton": "Continue Learning",
+  "variationsDone": "{total, plural, =1{{completed}/{total} variation done} other{{completed}/{total} variations done}}",
+  "@variationsDone": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "sideWhite": "White",
+  "sideBlack": "Black",
+  "sideWhiteInitial": "W",
+  "@sideWhiteInitial": {
+    "description": "Single-letter badge for the side a course teaches. The letter for 'white' in the target language."
+  },
+  "sideBlackInitial": "B",
+  "@sideBlackInitial": {
+    "description": "Single-letter badge for the side a course teaches. The letter for 'black' in the target language."
+  },
+  "courseMetaChip": "{count, plural, =1{{side} \u00b7 1 Chapter} other{{side} \u00b7 {count} Chapters}}",
+  "@courseMetaChip": {
+    "description": "Chip on a course card, e.g. 'White \u00b7 6 Chapters'.",
+    "placeholders": {
+      "side": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "puzzlesTitle": "Puzzles",
+  "puzzlesIntroTitle": "Sharpen your tactics",
+  "puzzlesIntroSubtitle": "Train on the themes that matter most and fix the mistakes you made in your games.",
+  "puzzlesFromYourGamesTitle": "Puzzles from your games",
+  "solveNowButton": "Solve Now",
+  "puzzlesRemainingCount": "{count} Puzzles Remaining",
+  "@puzzlesRemainingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noPuzzlesFromGamesMessage": "No puzzles yet — finish a game against Pippo and your mistakes will become puzzles.",
+  "puzzlesDownloadedSuccess": "{count} puzzles downloaded — available even when you are offline.",
+  "@puzzlesDownloadedSuccess": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mixedPuzzlesTitle": "Mixed Puzzles",
+  "mixedPuzzlesSubtitle": "Play puzzles of random themes",
+  "mixedPuzzlesRequiresInternet": "Requires an internet connection",
+  "downloadingPuzzlesStatus": "Downloading puzzles...",
+  "downloadPuzzlesSubtitle": "Save 10–100 puzzles to solve without internet",
+  "playDownloadedPuzzlesTitle": "Play Downloaded Puzzles",
+  "downloadedPuzzlesSavedOffline": "{count} puzzles saved — available offline",
+  "@downloadedPuzzlesSavedOffline": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "practiceThemesSection": "Practice themes",
+  "browseAllThemesButton": "Browse all themes",
+  "themesRequireInternet": "Themes require internet",
+  "coursesTitle": "Courses",
+  "coursesTabOpenings": "Openings",
+  "coursesTabMiddlegames": "Middlegames",
+  "coursesTabEndgames": "Endgames",
+  "noCoursesHereYet": "No courses here yet.",
+  "tryAgainButton": "Try again",
+  "playAsSide": "Play as {side}",
+  "@playAsSide": {
+    "placeholders": {
+      "side": {
+        "type": "String"
+      }
+    }
+  },
+  "chapterCountLabel": "{count} chapters",
+  "@chapterCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "variationCountLabel": "{count} variations",
+  "@variationCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "courseDetailsTitle": "Course Details",
+  "chaptersTitle": "Chapters",
+  "ecoCodeLabel": "ECO: {code}",
+  "@ecoCodeLabel": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "noChaptersAvailable": "No chapters available.",
+  "chapterCompletedBadge": "Completed",
+  "noVariationsAvailable": "No variations available",
+  "noVariationsForChapterYet": "No variations available for this chapter yet.",
+  "learnButton": "Learn",
+  "testButton": "Test",
+  "pricingTitle": "Go Pro",
+  "pricingHeroTitle": "Unlock your full\nchess potential.",
+  "pricingHeroSubtitle": "Get advanced analysis, unlimited puzzles, and AI-powered coaching.",
+  "pricingFaqHeader": "FREQUENTLY ASKED",
+  "pricingFaqCancelQuestion": "Can I cancel anytime?",
+  "pricingFaqCancelAnswer": "Yes, you can cancel your Pro subscription at any time. You'll keep access until the end of your billing period.",
+  "pricingFaqTrialQuestion": "Is there a free trial?",
+  "pricingFaqTrialAnswer": "Pro comes with a 7-day free trial. No credit card required to start.",
+  "pricingFaqPaymentQuestion": "What payment methods do you accept?",
+  "pricingFaqPaymentAnswer": "We accept all major credit cards, Apple Pay, and Google Pay.",
+  "pricingMostPopularBadge": "MOST POPULAR",
+  "pricingFreeBadge": "FREE",
+  "pricingProTierName": "Pro",
+  "pricingFreeTierName": "Free",
+  "pricingProPrice": "$9.99/mo",
+  "pricingFreePrice": "$0",
+  "pricingFeatureUnlimitedAnalysis": "Unlimited engine analysis",
+  "pricingFeatureDeepClassification": "Deep move classification",
+  "pricingFeatureAiReview": "AI-powered game review",
+  "pricingFeatureOpeningExplorer": "Advanced opening explorer",
+  "pricingFeatureUnlimitedPuzzles": "Unlimited puzzle sets",
+  "pricingFeatureTrainingPlans": "Personalized training plans",
+  "pricingFeaturePrioritySupport": "Priority support",
+  "pricingFeatureEarlyAccess": "Early access to new features",
+  "pricingFeatureBasicAnalysis": "Basic engine analysis",
+  "pricingFeatureStandardClassification": "Standard move classification",
+  "pricingFeatureGameImport": "Game import from Lichess & Chess.com",
+  "pricingFeatureLimitedPuzzles": "Limited puzzle sets",
+  "pricingFeatureCommunityAccess": "Community access",
+  "pricingStartTrialButton": "Start Free Trial",
+  "pricingCurrentPlanButton": "Current Plan",
+  "startingEngineStatus": "Starting engine...",
+  "downloadPippoPrompt": "Download Pippo (BaseModel.onnx) to play offline.",
+  "downloadProgressMbLabel": "{received} MB / {total} MB",
+  "@downloadProgressMbLabel": {
+    "placeholders": {
+      "received": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadingStatus": "Downloading...",
+  "downloadEngineButton": "Download Engine",
+  "startChapterButton": "Start Chapter",
+  "finishChapterButton": "Finish Chapter",
+  "takeTestButton": "Take Test",
+  "exploreBranchesButton": "Explore Branches",
+  "moveToNextVariationButton": "Move to Next Variation",
+  "variationsTitle": "Variations",
+  "alternativeBranchesTitle": "Alternative Branches",
+  "noTheoryAvailable": "No theory available for this variation.",
+  "editBranchExplanationTooltip": "Edit branch explanation",
+  "editExplanationTooltip": "Edit explanation",
+  "editTheoryTooltip": "Edit theory",
+  "branchEditTitle": "Branch: {name}",
+  "@branchEditTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "moveEditTitle": "Move: {move}",
+  "@moveEditTitle": {
+    "placeholders": {
+      "move": {
+        "type": "String"
+      }
+    }
+  },
+  "chapterEditTitle": "Chapter: {name}",
+  "@chapterEditTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "theoryEditTitle": "Theory: {name}",
+  "@theoryEditTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "freeUsersUnlockOneChapterPerDay": "Free users can unlock one new chapter per day.",
+  "playMovePrompt": "Play {move}",
+  "@playMovePrompt": {
+    "placeholders": {
+      "move": {
+        "type": "String"
+      }
+    }
+  },
+  "opponentThinking": "I'm thinking",
+  "opponentPlayedMove": "Opponent played {move}",
+  "@opponentPlayedMove": {
+    "placeholders": {
+      "move": {
+        "type": "String"
+      }
+    }
+  },
+  "correctMoveWithName": "Correct! {move}",
+  "@correctMoveWithName": {
+    "placeholders": {
+      "move": {
+        "type": "String"
+      }
+    }
+  },
+  "notRightMove": "That's not the right move",
+  "variationCompletedMessage": "Variation Completed!",
+  "explanationUpdatedMessage": "Explanation updated for everyone studying this course.",
+  "thinkAboutMovesHint": "Think about the {piece} moves...",
+  "@thinkAboutMovesHint": {
+    "placeholders": {
+      "piece": {
+        "type": "String"
+      }
+    }
+  },
+  "writeHintPlaceholder": "Write the hint...",
+  "hintUpdatedMessage": "Hint updated for everyone testing this chapter.",
+  "masteryTestTitle": "Mastery Test",
+  "thinkItThrough": "Think it through...",
+  "correctFeedback": "Correct!",
+  "notQuiteTryAgain": "Not quite — try again",
+  "opponentThinkingTest": "Opponent is thinking...",
+  "yourMovePlayOpeningLine": "Your move — play the opening line",
+  "editHintTooltip": "Edit hint",
+  "variationLabelUpper": "VARIATION",
+  "overallProgressLabel": "Overall progress",
+  "pliesProgressCounter": "{done} / {total} plies",
+  "@pliesProgressCounter": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "abortButton": "Abort",
+  "getHintButton": "Get Hint",
+  "chapterPassedTitle": "Chapter Passed",
+  "youInternalizedChapter": "You internalized {chapter}.",
+  "@youInternalizedChapter": {
+    "placeholders": {
+      "chapter": {
+        "type": "String"
+      }
+    }
+  },
+  "variationsCompletedCount": "{count} variations completed",
+  "@variationsCompletedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "returnToCourseButton": "Return to Course",
+  "hintForMoveTitle": "Hint for {move}",
+  "@hintForMoveTitle": {
+    "placeholders": {
+      "move": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyPuzzleTitle": "Daily Puzzle",
+  "downloadedPuzzlesTitle": "Downloaded Puzzles",
+  "whiteToPlay": "White to play",
+  "blackToPlay": "Black to play",
+  "hintLookAtPiece": "Look at your {piece} on {square}",
+  "@hintLookAtPiece": {
+    "placeholders": {
+      "piece": {
+        "type": "String"
+      },
+      "square": {
+        "type": "String"
+      }
+    }
+  },
+  "hintPieceIsKey": "Your {piece} on {square} is the key",
+  "@hintPieceIsKey": {
+    "placeholders": {
+      "piece": {
+        "type": "String"
+      },
+      "square": {
+        "type": "String"
+      }
+    }
+  },
+  "hintFocusOnPiece": "Focus on the {piece} sitting on {square}",
+  "@hintFocusOnPiece": {
+    "placeholders": {
+      "piece": {
+        "type": "String"
+      },
+      "square": {
+        "type": "String"
+      }
+    }
+  },
+  "themeHintAbout": "This puzzle is about {theme}",
+  "@themeHintAbout": {
+    "placeholders": {
+      "theme": {
+        "type": "String"
+      }
+    }
+  },
+  "themeHintWayOut": "The {theme} is your way out here",
+  "@themeHintWayOut": {
+    "placeholders": {
+      "theme": {
+        "type": "String"
+      }
+    }
+  },
+  "themeHintThinking": "Try thinking in terms of {theme}",
+  "@themeHintThinking": {
+    "placeholders": {
+      "theme": {
+        "type": "String"
+      }
+    }
+  },
+  "piecePawn": "pawn",
+  "pieceKnight": "knight",
+  "pieceBishop": "bishop",
+  "pieceRook": "rook",
+  "pieceQueen": "queen",
+  "pieceKing": "king",
+  "pieceGeneric": "piece",
+  "mixedTacticsLabel": "mixed tactics",
+  "allDownloadedSolvedMessage": "All downloaded puzzles solved — download more next time you are online.",
+  "loadingNextPuzzles": "Loading next puzzles...",
+  "noPuzzlesAvailable": "No puzzles available.",
+  "yourRatingLabel": "Your rating:",
+  "hintButton": "Hint",
+  "showThemeButton": "Show Theme",
+  "hintUsedButton": "Hint Used",
+  "doneButton": "Done",
+  "nextButton": "Next",
+  "retryButton": "Retry",
+  "myPuzzleIntroMessage": "You played {move} in this position, which was {classification}. Try to look for a better move.",
+  "@myPuzzleIntroMessage": {
+    "placeholders": {
+      "move": {
+        "type": "String"
+      },
+      "classification": {
+        "type": "String"
+      }
+    }
+  },
+  "notBestMoveTryAgain": "That is not the best move here. Try again and look for a stronger continuation.",
+  "greatJobFoundBestMove": "Great job! You found the best move.",
+  "myPuzzleHintPieceToMove": "Look at your {piece} on {square}. That is the piece you need to move.",
+  "@myPuzzleHintPieceToMove": {
+    "placeholders": {
+      "piece": {
+        "type": "String"
+      },
+      "square": {
+        "type": "String"
+      }
+    }
+  },
+  "allMyPuzzlesSolvedMessage": "All puzzles solved — nice work!",
+  "noMyPuzzlesEmptyState": "No puzzles available yet.\n\nFinish a game against Pippo — your mistakes will automatically become puzzles.",
+  "puzzleCounterTitle": "Puzzle {current} of {total}",
+  "@puzzleCounterTitle": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "finishButton": "Finish",
+  "nextPuzzleButton": "Next Puzzle",
+  "allThemesTitle": "All Themes",
+  "allThemesIntro": "Practice all kinds of chess puzzles in one place. Pick a theme, test your skills, and see how well you can do across different parts of the game.",
+  "themesNeedInternetOffline": "Themes need an internet connection to load a fresh batch. Your internet is offline right now.",
+  "needsInternetForBatch": "Needs internet to load a fresh batch",
+  "themeGroupMates": "Mates",
+  "themeGroupTactics": "Tactics",
+  "themeGroupKingAttack": "King Attack",
+  "themeGroupEndgames": "Endgames",
+  "themeGroupPawnsPromotion": "Pawns & Promotion",
+  "themeGroupStrategy": "Strategy",
+  "themeMateIn1": "Mate In 1",
+  "themeMateIn1Desc": "Find the checkmate in a single move.",
+  "themeMateIn2": "Mate In 2",
+  "themeMateIn2Desc": "Set up the position and finish with checkmate on your next move.",
+  "themeMateIn3": "Mate In 3",
+  "themeMateIn3Desc": "Find the winning sequence that leads to checkmate in three moves.",
+  "themeMateIn4": "Mate In 4",
+  "themeMateIn4Desc": "Plan a few moves ahead to force checkmate.",
+  "themeMateIn5": "Mate In 5",
+  "themeMateIn5Desc": "A longer mating sequence where every move matters.",
+  "themeOtherMates": "Other Mates",
+  "themeOtherMatesDesc": "Special mating patterns like Back Rank, Smothered, Anastasia, Arabian, Boden, Opera, and more.",
+  "themeFork": "Fork",
+  "themeForkDesc": "One piece attacks two or more targets at once.",
+  "themePin": "Pin",
+  "themePinDesc": "A piece is stuck because moving it would expose something more valuable.",
+  "themeSkewer": "Skewer",
+  "themeSkewerDesc": "Attack a valuable piece and win what is hiding behind it.",
+  "themeDiscoveredAttack": "Discovered Attack",
+  "themeDiscoveredAttackDesc": "Move one piece to uncover an attack from another.",
+  "themeDiscoveredCheck": "Discovered Check",
+  "themeDiscoveredCheckDesc": "Uncover a check by moving another piece out of the way.",
+  "themeDoubleCheck": "Double Check",
+  "themeDoubleCheckDesc": "Give check from two pieces at the same time.",
+  "themeSacrifice": "Sacrifice",
+  "themeSacrificeDesc": "Give up material to gain something stronger in return.",
+  "themeDeflection": "Deflection",
+  "themeDeflectionDesc": "Force a piece away from where it needs to be.",
+  "themeClearance": "Clearance",
+  "themeClearanceDesc": "Move a piece away to open the way for another piece.",
+  "themeCapturingDefender": "Capturing Defender",
+  "themeCapturingDefenderDesc": "Remove the piece protecting an important target.",
+  "themeAdvancedTactics": "Advanced Tactics",
+  "themeAdvancedTacticsDesc": "More difficult combinations involving several tactical ideas.",
+  "themeKingsideAttack": "Kingside Attack",
+  "themeKingsideAttackDesc": "Build an attack against the king on the kingside.",
+  "themeQueensideAttack": "Queenside Attack",
+  "themeQueensideAttackDesc": "Look for ways to break through around the enemy king on the queenside.",
+  "themeExposedKing": "Exposed King",
+  "themeExposedKingDesc": "Take advantage of a king that has lost its protection.",
+  "themeAttackingF2F7": "Attacking F2 F7",
+  "themeAttackingF2F7Desc": "Target the weak f2 or f7 square near the king.",
+  "themeEndgame": "Endgame",
+  "themeEndgameDesc": "Find the best way to play when only a few pieces remain.",
+  "themeRookEndgame": "Rook Endgame",
+  "themeRookEndgameDesc": "Learn to make the most of your rooks in the endgame.",
+  "themeQueenEndgame": "Queen Endgame",
+  "themeQueenEndgameDesc": "Find the right moves in positions where queens remain on the board.",
+  "themeQueenRookEndgame": "Queen Rook Endgame",
+  "themeQueenRookEndgameDesc": "Handle endgames where queens and rooks are still in play.",
+  "themeBishopEndgame": "Bishop Endgame",
+  "themeBishopEndgameDesc": "Use your bishop and king to find the winning plan.",
+  "themeKnightEndgame": "Knight Endgame",
+  "themeKnightEndgameDesc": "Find the right moves in endgames where knights matter most.",
+  "themePawnEndgame": "Pawn Endgame",
+  "themePawnEndgameDesc": "Calculate pawn races and find the path to victory.",
+  "themeZugzwang": "Zugzwang",
+  "themeZugzwangDesc": "Put your opponent in a position where any move makes things worse.",
+  "themeAdvancedPawn": "Advanced Pawn",
+  "themeAdvancedPawnDesc": "Use a dangerous pawn that has pushed deep into enemy territory.",
+  "themePromotion": "Promotion",
+  "themePromotionDesc": "Push a pawn through to become a stronger piece.",
+  "themeUnderPromotion": "Under Promotion",
+  "themeUnderPromotionDesc": "Promote to something other than a queen when that's the winning move.",
+  "themeEnPassant": "En Passant",
+  "themeEnPassantDesc": "Spot the rare chance to capture a pawn using en passant.",
+  "themeQuietMove": "Quiet Move",
+  "themeQuietMoveDesc": "Find a calm move that creates a strong advantage without forcing tactics.",
+  "themeDefensiveMove": "Defensive Move",
+  "themeDefensiveMoveDesc": "Find the move that stops your opponent's threat.",
+  "themeAdvantage": "Advantage",
+  "themeAdvantageDesc": "Find the move that keeps or increases your advantage.",
+  "themeEquality": "Equality",
+  "themeEqualityDesc": "Find the move that keeps the position balanced.",
+  "themeCrushing": "Crushing",
+  "themeCrushingDesc": "Find the powerful move that turns a strong position into a winning one.",
+  "pippoThinking2": "Let me look for the best move",
+  "pippoThinking3": "One moment... I see a few ideas",
+  "pippoThinking4": "Calculating my reply",
+  "pippoThreatAsk1": "Can you spot what this move is threatening?",
+  "pippoThreatAsk2": "I have a little idea behind that move...",
+  "pippoThreatAsk3": "Watch out — that move puts something under pressure.",
+  "pippoThreatAsk4": "There may be more to that move than meets the eye.",
+  "pippoGreat1": "Great job finding the only move in this position!",
+  "pippoGreat2": "That was a great move — very well spotted.",
+  "pippoGreat3": "Excellent find. You handled that position beautifully.",
+  "pippoBrilliant1": "Brilliant! That move was wonderfully precise.",
+  "pippoBrilliant2": "What a brilliant idea — I did not expect that one.",
+  "pippoBrilliant3": "That was brilliant. You found a seriously creative move.",
+  "pippoFinished1": "That was a great game! Want to play again?",
+  "pippoFinished2": "Well played! Fancy another game?",
+  "pippoFinished3": "Good game — I enjoyed that one. Rematch?",
+  "classificationBookComment": "A move from the opening book.",
+  "resignDialogTitle": "Resign Game?",
+  "resignDialogBody": "Are you sure you want to resign? This will end the current game.",
+  "resignConfirm": "Resign",
+  "gameOverResignBlack": "Black wins by resignation",
+  "gameOverResignWhite": "White wins by resignation",
+  "gameOverDefault": "Game Over",
+  "gameOverMateBlack": "Black wins by Checkmate",
+  "gameOverMateWhite": "White wins by Checkmate",
+  "gameOverStalemate": "Draw by Stalemate",
+  "gameOverRepetition": "Draw by Repetition",
+  "gameOverInsufficient": "Draw by Insufficient Material",
+  "gameOverDrawn": "Game Drawn",
+  "playStartFirst": "Start a game first",
+  "takebackTrainingOnly": "Takebacks are only available in Training mode",
+  "takebackNoMoves": "No moves to take back",
+  "takebackDone": "Move taken back",
+  "pippoMissBare": "You missed a better move in this position.",
+  "pippoMissWithMove": "You missed a better move in this position, you should have gone {move}.",
+  "@pippoMissWithMove": {
+    "placeholders": {
+      "move": {
+        "type": "String"
+      }
+    }
+  },
+  "pippoBlunderPause": "That move was a blunder. Take it back, or continue and I will play on.",
+  "hintTrainingOnly": "Hints are only available in Training mode",
+  "hintYourTurnOnly": "Hints are only available on your turn",
+  "hintStillAnalyzing": "Still analyzing... try again in a moment",
+  "hintLookForPiece": "Look for a good move with your {piece} on {square}.",
+  "@hintLookForPiece": {
+    "placeholders": {
+      "piece": {
+        "type": "String"
+      },
+      "square": {
+        "type": "String"
+      }
+    }
+  },
+  "playToolTakeback": "Take back",
+  "playToolAskHint": "Ask Pippo for a hint",
+  "playToolClassifyHeader": "Classify",
+  "classifyYourMoves": "Your moves",
+  "classifyPippoMoves": "Pippo's moves",
+  "playingPippoTitle": "Playing Pippo",
+  "resignButton": "Resign",
+  "playAsHeader": "PLAY AS",
+  "sideRandom": "Random",
+  "strengthHeader": "STRENGTH",
+  "optionsHeader": "OPTIONS",
+  "modeLabel": "Mode",
+  "modeChallenge": "Challenge",
+  "modeTraining": "Training",
+  "startGameButton": "Start Game",
+  "perkFeedback": "Get feedback on your moves",
+  "perkSeeThreats": "See all threats",
+  "perkTakeback": "Takeback moves whenever you want",
+  "perkBlunderPause": "Pauses game when you make a blunder",
+  "perkHintsAllowed": "Hints allowed",
+  "perkNoFeedback": "No move feedback",
+  "perkHiddenThreats": "Threats stay hidden",
+  "perkNoTakebacks": "No takebacks",
+  "perkNoBlunderPause": "Game keeps going after blunders",
+  "perkNoHints": "No hints",
+  "pippoEloLabel": "{elo} ELO",
+  "@pippoEloLabel": {
+    "placeholders": {
+      "elo": {
+        "type": "int"
+      }
+    }
+  },
+  "hideThreats": "Hide threats",
+  "showThreat": "Show threat",
+  "blunderContinue": "Continue",
+  "gameOverFallback": "Game over",
+  "resultHome": "Home",
+  "resultNewGame": "New game",
+  "resultAnalyzeGame": "Analyze game",
+  "gameToolsTooltip": "Game tools",
+  "movesHeader": "Moves",
+  "moveCountLabel": "{count} moves",
+  "@moveCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "movesEmptyPlay": "Your moves will appear here as the game unfolds.",
+  "puzzleNotBest": "Not the best move. Try again!",
+  "puzzleSessionComplete": "Practice session complete!",
+  "practiceTitle": "Practice",
+  "puzzleEmpty": "No puzzles available.",
+  "puzzleCounter": "Puzzle {current}/{total}",
+  "@puzzleCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "puzzleHint": "Hint",
+  "puzzleShowMove": "Show Move",
+  "puzzleUsedHint": "Used Hint",
+  "puzzleNext": "Next Puzzle",
+  "analysisTitle": "Analysis",
+  "addGameTooltip": "Add game or position",
+  "closeGameButton": "Close",
+  "positionLoadedOk": "Position loaded successfully",
+  "gameImportedOk": "Game imported successfully",
+  "savedEventTitle": "AtlasChess vs {opponent}",
+  "@savedEventTitle": {
+    "placeholders": {
+      "opponent": {
+        "type": "String"
+      }
+    }
+  },
+  "youLabel": "You",
+  "explorerGameLoaded": "{white} vs {black} loaded",
+  "@explorerGameLoaded": {
+    "placeholders": {
+      "white": {
+        "type": "String"
+      },
+      "black": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewNoGame": "No game to review",
+  "reviewQuotaUsed": "You have used today's game reviews. Upgrade to Pro for more.",
+  "analysisNoMoves": "No moves to analyze",
+  "settingsEngineHeader": "Engine",
+  "settingsEnableEngine": "Enable Engine",
+  "settingsDepth": "Depth",
+  "settingsClassificationHeader": "Move Classification",
+  "settingsEnableClassification": "Enable Classification",
+  "settingsThreatHeader": "Threat Detector",
+  "settingsThreatToggle": "Threat detector",
+  "settingsLinesLabel": "Number of Lines (PV)",
+  "filterBook": "Book",
+  "filterBrilliant": "Brilliant",
+  "filterBlunder": "Blunder",
+  "showLess": "Show Less",
+  "showAll": "Show All",
+  "analyzingBanner": "Your game is being analyzed, you can leave this screen",
+  "fullViewTooltip": "Full view",
+  "compactViewTooltip": "Compact view",
+  "classifyingMove": "Classifying move...",
+  "phraseBest": "the best move",
+  "phraseBrilliant": "a brilliant move",
+  "phraseGreat": "a great move",
+  "phraseExcellent": "an excellent move",
+  "phraseGood": "a good move",
+  "phraseInaccuracy": "an inaccuracy",
+  "phraseMistake": "a mistake",
+  "phraseBlunder": "a blunder",
+  "phraseMiss": "a miss",
+  "phraseBook": "a book move",
+  "phraseForced": "a forced move",
+  "sentenceBestSuffix": ", {move} was the best move",
+  "@sentenceBestSuffix": {
+    "placeholders": {
+      "move": {
+        "type": "String"
+      }
+    }
+  },
+  "retryReview": "Retry review",
+  "reviewWaiting": "Your game is being reviewed",
+  "pgnEmpty": "No moves yet",
+  "pgnResume": "Resume",
+  "showBestTooltip": "Show best move",
+  "tabMoves": "Moves",
+  "tabExplorer": "Explorer",
+  "moveTreeHeader": "Move tree",
+  "moveTreeEmpty": "Your moves and variations will appear here.",
+  "gameReportButton": "Game report",
+  "gameAnalysisTitle": "Game Analysis",
+  "analyzeButton": "Analyze",
+  "viewReportTooltip": "View report",
+  "noReportYet": "No Report Generated yet",
+  "addToAnalysisTitle": "Add to analysis",
+  "addToAnalysisSubtitle": "Start from a game, a position, or a custom board.",
+  "importSegment": "Import",
+  "fenSegment": "FEN",
+  "setupButton": "Setup",
+  "gameReportTitle": "Game Report",
+  "accuraciesHeader": "Accuracies",
+  "accuracyRerunHint": "Re-run full-game analysis to compute accuracies.",
+  "pastePgnTooltip": "Paste PGN",
+  "pastePgnButton": "Paste copied PGN",
+  "searchingLabel": "Searching...",
+  "importingLabel": "Importing...",
+  "searchGamesButton": "Search Games",
+  "startAnalysisButton": "Start Analysis",
+  "fenFieldLabel": "Board Position (FEN)",
+  "pasteFenTooltip": "Paste FEN",
+  "pasteFenButton": "Paste copied FEN",
+  "loadPositionButton": "Load Position",
+  "inputPgnText": "PGN Text",
+  "inputUsername": "Username",
+  "inputGameUrl": "Game URL",
+  "hintPastePgn": "Paste PGN here...",
+  "hintEnterUsername": "Enter username...",
+  "dialogOk": "OK",
+  "lichessSignInCancelled": "Lichess sign-in cancelled",
+  "boardSetupTitle": "Board Setup",
+  "flipBoardTooltip": "Flip board",
+  "clearBoardButton": "Clear board",
+  "startPositionButton": "Start position",
+  "whoMovesHeader": "WHO MOVES FIRST",
+  "piecesHeader": "PIECES",
+  "setupInstructions": "Tap a piece to select it, then tap the board to place it. Drag a piece onto the board to add it, or drag it off the board to remove it.",
+  "fenHeader": "FEN",
+  "setupFinish": "Finish",
+  "engineDepthLabel": "Depth {depth}",
+  "@engineDepthLabel": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "analyzeGameTitle": "Analyze Game",
+  "reviewsUnlimited": "Unlimited game reviews available today",
+  "reviewsLeftToday": "{done}/{total} game reviews available today",
+  "@reviewsLeftToday": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "analyzeTypeHeader": "Type",
+  "analyzeModeAnalysis": "Analysis",
+  "analyzeModeAnalysisDesc": "Classifies all moves of your game using Stockfish",
+  "analyzeModeReview": "Review",
+  "upgradeToProTitle": "Upgrade to Pro",
+  "reviewModeDesc": "Move-by-move explanations of your game",
+  "reviewLockedDesc": "Unlock more game reviews every day",
+  "engineDepthHeader": "Engine Depth",
+  "depthValueLabel": "Depth {depth}",
+  "@depthValueLabel": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "depthHint": "Higher depth can take more time to analyze",
+  "selectGameTitle": "Select a Game",
+  "versusShort": "vs",
+  "speedBullet": "Bullet",
+  "speedBlitz": "Blitz",
+  "speedRapid": "Rapid",
+  "speedClassical": "Classical",
+  "openingExplorerTitle": "Opening Explorer",
+  "dbMasters": "Masters",
+  "filtersHeader": "Filters",
+  "theoreticalMoves": "Theoretical Moves",
+  "topMasterGames": "Top Master Games",
+  "recentGames": "Recent Games",
+  "explorerSignInDesc": "Sign in with Lichess to explore millions of games, top master games and opening statistics.",
+  "signInWithLichess": "Sign in with Lichess",
+  "noOpeningData": "No opening data available",
+  "gamesCountLabel": "{count} games",
+  "@gamesCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "unknownPlayer": "Unknown",
+  "monthJanuary": "January",
+  "monthFebruary": "February",
+  "monthMarch": "March",
+  "monthApril": "April",
+  "monthMay": "May",
+  "monthJune": "June",
+  "monthJuly": "July",
+  "monthAugust": "August",
+  "monthSeptember": "September",
+  "monthOctober": "October",
+  "monthNovember": "November",
+  "monthDecember": "December",
+  "indicatorGreen": "Green",
+  "indicatorAmber": "Amber",
+  "indicatorRed": "Red",
+  "clsBest": "Best",
+  "clsBrilliant": "Brilliant",
+  "clsGreat": "Great",
+  "clsExcellent": "Excellent",
+  "clsGood": "Good",
+  "clsInaccuracy": "Inaccuracy",
+  "clsMistake": "Mistake",
+  "clsBlunder": "Blunder",
+  "clsBook": "Book",
+  "clsForced": "Forced",
+  "clsMiss": "Miss",
+  "averageRatingLabel": "Avg. {rating}",
+  "@averageRatingLabel": {
+    "placeholders": {
+      "rating": {
+        "type": "int"
+      }
+    }
+  },
+  "classificationSentence": "{move} is {label}",
+  "@classificationSentence": {
+    "placeholders": {
+      "move": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewBestHint": "{explanation} {move} was the best move.",
+  "@reviewBestHint": {
+    "placeholders": {
+      "explanation": {
+        "type": "String"
+      },
+      "move": {
+        "type": "String"
+      }
+    }
+  }
+}
